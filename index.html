@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kishor | Student Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0b0f19;
+      color: #ffffff;
+    }
+
+    header {
+      padding: 20px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      color: #7c7cff;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #cfcfcf;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #7c7cff;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px;
+    }
+
+    .hero-text {
+      max-width: 550px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text h1 span {
+      color: #7c7cff;
+    }
+
+    .hero-text p {
+      margin: 15px 0;
+      color: #b5b5b5;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 6px;
+      margin-right: 15px;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      background: #7c7cff;
+      color: #000;
+    }
+
+    .btn-secondary {
+      border: 1px solid #7c7cff;
+      color: #7c7cff;
+    }
+
+    .profile-pic {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 4px solid #7c7cff;
+      object-fit: cover;
+    }
+
+    section {
+      padding: 60px 80px;
+    }
+
+    section h2 {
+      margin-bottom: 25px;
+      color: #7c7cff;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #151a2e;
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 8px 8px 0 0;
+      font-size: 13px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #12172b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #8a8a8a;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>MyPortfolio</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Kishor K</span></h1>
+    <p>
+      I'm a college student passionate about technology and development.
+      This portfolio is created as part of my academic activity using HTML and CSS.
+    </p>
+
+    <div class="buttons">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="C:\Users\kathi\OneDrive\Desktop\new update portfolio\KISHOR (6).pdf" class="btn-secondary" target="_blank">
+        Download Resume
+      </a>
+    </div>
+  </div>
+
+  <img src="C:\Users\kathi\OneDrive\Desktop\new update portfolio\WhatsApp Image 2025-12-26 at 10.55.50 AM.jpeg" alt="Profile" class="profile-pic">
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a focused and curious student with a strong interest in technology,
+    problem-solving, and continuous self-improvement. I believe real growth
+    comes from consistency, learning from mistakes, and applying knowledge
+    in practical ways.
+  </p>
+  <p>
+    Rather than claiming to know everything, I value clarity, discipline, and
+    the willingness to learn deeply. I am actively building my skills through
+    academics, hands-on projects, and self-driven learning.
+  </p>
+  <p>
+    I take responsibility seriously and prefer honest work over shortcuts.
+    My long-term aim is to become a technically sound and ethically grounded
+    professional who creates meaningful impact through technology.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>C Programming</span>
+    <span>Python (Basic)</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>AI Tools Handling</span>
+    <span>Editing</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Student Projects</h2>
+  <div class="projects">
+
+    <div class="card">
+      <h3>Student Portfolio Website</h3>
+      <p>
+        Personal portfolio website developed using HTML and CSS
+        as part of college academic activity.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Academic Mini Project</h3>
+      <p>
+        Mini project created to strengthen practical understanding
+        of programming and problem-solving concepts.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: kishorkishor10147@gmail.com</p>
+  <p>College: Bannari Amman Institute of Technology</p>
+</section>
+
+<footer>
+  © 2025 | Kishor K – Student Portfolio
+</footer>
+
+</body>
+</html>
